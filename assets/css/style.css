@@ -82,14 +82,18 @@ ul { margin: 0; padding: 0; }
 .site-header {
   position: fixed; inset: 0 0 auto; z-index: 100;
   height: var(--header-h);
-  transition: background .3s var(--ease), box-shadow .3s var(--ease);
 }
-.site-header.is-scrolled {
+/* The frosted background lives on a pseudo-element: backdrop-filter on the
+   header itself would trap the fixed mobile menu inside the header box. */
+.site-header::before {
+  content: ""; position: absolute; inset: 0; z-index: -1;
+  opacity: 0; transition: opacity .3s var(--ease);
   background: rgba(245, 241, 232, .86);
   backdrop-filter: saturate(1.4) blur(12px);
   -webkit-backdrop-filter: saturate(1.4) blur(12px);
   box-shadow: 0 1px 0 var(--line);
 }
+.site-header.is-scrolled::before { opacity: 1; }
 .site-header__inner {
   height: 100%; display: flex; align-items: center; justify-content: space-between; gap: 24px;
 }
@@ -145,7 +149,9 @@ ul { margin: 0; padding: 0; }
   .menu-open .menu-toggle span { background: var(--paper); }
   .gnav ul { flex-direction: column; gap: 6px; text-align: center; }
   .gnav a { font-size: 30px; padding: 6px 16px; }
-  .gnav .btn { margin: 18px 0 0; font-size: 16px; }
+  .gnav .btn { margin: 18px 0 0; font-size: 16px; background: var(--paper); color: var(--ink); border-color: var(--paper); }
+  .gnav a:not(.btn)::after { bottom: 0; }
+  .menu-open .to-top { opacity: 0; visibility: hidden; }
   .logo__sub { display: none; }
   body.menu-open { overflow: hidden; }
 }
