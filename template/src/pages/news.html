@@ -1,0 +1,24 @@
+title: ニュース
+desc: {{company.name}}からのお知らせ一覧です。
+section: news
+hero_en: <em>News</em>
+hero_jp: お知らせ
+hero_accent: var(--blue)
+breadcrumb: News
+---
+<section class="section section--tight">
+  <div class="wrap">
+    <div class="tabs reveal" role="tablist" aria-label="カテゴリで絞り込む" data-tabs>
+      <button type="button" role="tab" aria-selected="true" data-filter="all">All</button>
+      <button type="button" role="tab" aria-selected="false" data-filter="info">Information</button>
+      <button type="button" role="tab" aria-selected="false" data-filter="blog">Blog</button>
+    </div>
+    <ul class="post-list reveal">
+      <!-- 1件 = 1つの <li>。data-cat をタブの data-filter と合わせます -->
+      <li data-cat="info"><a href="#"><time datetime="2026-01-01">2026.01.01</time><span class="cat" style="--c:var(--blue)">Information</span><span class="ttl">お知らせのタイトル</span><span class="go" aria-hidden="true">→</span></a></li>
+      <li data-cat="blog"><a href="#"><time datetime="2025-12-01">2025.12.01</time><span class="cat" style="--c:var(--red)">Blog</span><span class="ttl">ブログのタイトル</span><span class="go" aria-hidden="true">→</span></a></li>
+    </ul>
+  </div>
+</section>
+
+{{CTA}}

@@ -1,0 +1,85 @@
+title: Home
+full_title: {{site_name}}
+desc: ここにサイトの説明文（120文字前後）を入れます。検索結果に表示されます。
+section: home
+---
+<section class="hero">
+  <canvas class="hero__paint" aria-hidden="true"></canvas>
+  <div class="hero__blob hero__blob--blue" aria-hidden="true"></div>
+  <div class="hero__blob hero__blob--red" aria-hidden="true"></div>
+  <div class="hero__blob hero__blob--yellow" aria-hidden="true"></div>
+  <div class="wrap hero__inner">
+    <p class="hero__eyebrow reveal">COMPANY NAME — SINCE 20XX</p>
+    <h1 class="hero__title reveal" data-delay="1">Your big <em class="c-blue">catch</em><br><em class="c-red">copy</em> here.</h1>
+    <p class="hero__lead reveal" data-delay="2">ここに日本語のリード文を入れます。</p>
+    <p class="hero__hint reveal" data-delay="2" aria-hidden="true">— 画面をなぞって、色をのせてみてください。</p>
+    <div class="hero__cta reveal" data-delay="3">
+      <a class="btn" href="work.html">事業内容を見る <span class="arrow" aria-hidden="true">→</span></a>
+      <a class="btn btn--ghost" href="recruit.html">採用情報</a>
+    </div>
+  </div>
+  <div class="hero__scroll" aria-hidden="true">SCROLL</div>
+</section>
+
+<div class="marquee" aria-hidden="true">
+  <div class="marquee__track">
+    <span>Keyword One</span><span>Keyword Two</span><span>Keyword Three</span><span>{{brand.tagline}}</span>
+    <span>Keyword One</span><span>Keyword Two</span><span>Keyword Three</span><span>{{brand.tagline}}</span>
+  </div>
+</div>
+
+<section class="section">
+  <div class="wrap split">
+    <div class="reveal">
+      <p class="eyebrow">Policy</p>
+      <h2 class="sec-title">ここに理念の<br>見出しを入れます。</h2>
+    </div>
+    <div class="reveal" data-delay="1">
+      <p>ここに会社の理念や想いを2〜3段落で書きます。</p>
+      <p>読みやすさのため、1段落は3〜4行程度がおすすめです。</p>
+      <ul class="values">
+        <li style="--c: var(--blue)">Value One</li>
+        <li style="--c: var(--red)">Value Two</li>
+        <li style="--c: var(--yellow)">Value Three</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section section--paper">
+  <div class="wrap">
+    <div class="sec-head reveal"><p class="eyebrow" style="--accent: var(--blue)">What we do</p><h2 class="sec-title">事業内容</h2></div>
+    <div class="grid grid--3">
+      <a class="card card--blue reveal" href="work.html"><p class="card__num">01</p><h3 class="card__title">事業名 1</h3><p class="card__text">事業の説明を1〜2文で。</p></a>
+      <a class="card card--red reveal" data-delay="1" href="work.html"><p class="card__num">02</p><h3 class="card__title">事業名 2</h3><p class="card__text">事業の説明を1〜2文で。</p></a>
+      <a class="card card--yellow reveal" data-delay="2" href="work.html"><p class="card__num">03</p><h3 class="card__title">事業名 3</h3><p class="card__text">事業の説明を1〜2文で。</p></a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap split">
+    <div class="photo photo--tall reveal"><img src="assets/img/placeholder.svg" alt="代表の写真" width="800" height="600"></div>
+    <div class="reveal" data-delay="1">
+      <p class="eyebrow">Message</p>
+      <p class="quote-big mt-s">“A short quote<br>from the CEO.”</p>
+      <p class="mt-m">代表メッセージの要約を2〜3行で。</p>
+      <div class="signature"><strong>代表 氏名</strong><span class="en">Name ／ 代表取締役</span></div>
+      <p class="mt-m"><a class="btn btn--ghost" href="message.html">代表挨拶を読む <span class="arrow" aria-hidden="true">→</span></a></p>
+    </div>
+  </div>
+</section>
+
+<section class="section section--paper">
+  <div class="wrap">
+    <div class="sec-head reveal"><p class="eyebrow" style="--accent: var(--yellow)">Staff</p><h2 class="sec-title">一緒に働く仲間</h2></div>
+    <div class="grid grid--4">
+      <a class="staff-card reveal" href="staff-member.html"><div class="photo"><img src="assets/img/placeholder.svg" alt="スタッフ氏名" loading="lazy"></div><p class="staff-card__en">Staff Name</p><p class="staff-card__jp">スタッフ氏名</p></a>
+      <a class="staff-card reveal" data-delay="1" href="staff-member.html"><div class="photo"><img src="assets/img/placeholder.svg" alt="スタッフ氏名" loading="lazy"></div><p class="staff-card__en">Staff Name</p><p class="staff-card__jp">スタッフ氏名</p></a>
+      <a class="staff-card reveal" data-delay="2" href="staff-member.html"><div class="photo"><img src="assets/img/placeholder.svg" alt="スタッフ氏名" loading="lazy"></div><p class="staff-card__en">Staff Name</p><p class="staff-card__jp">スタッフ氏名</p></a>
+      <a class="staff-card staff-card--you reveal" data-delay="3" href="recruit.html"><div class="photo"><span>…and<br>you?</span></div><p class="staff-card__en">Join us</p><p class="staff-card__jp">採用情報を見る</p></a>
+    </div>
+  </div>
+</section>
+
+{{CTA}}

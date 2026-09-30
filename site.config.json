@@ -1,0 +1,78 @@
+{
+  "site_name": "株式会社Canvas（キャンバス）",
+  "base_url": "https://canvasltd.com/",
+  "lang": "ja",
+  "asset_version": "5",
+
+  "brand": {
+    "name": "Canvas",
+    "tagline": "Make colours by yourself!",
+    "copyright": "© 2014–{year} Canvas Inc. All rights reserved."
+  },
+
+  "colors": {
+    "canvas": "#f5f1e8",
+    "paper": "#fffdf8",
+    "ink": "#1b1a17",
+    "blue": "#2e56e6",
+    "red": "#e5432a",
+    "yellow": "#f4b400",
+    "green": "#1e9e6a"
+  },
+
+  "company": {
+    "name": "株式会社Canvas",
+    "zip": "171-0031",
+    "address": "東京都豊島区目白2-16-22 ロンアイル池袋301",
+    "tel": "03-4362-5057",
+    "email_user": "info",
+    "email_host": "canvasltd.com"
+  },
+
+  "nav": [
+    { "label": "Message", "href": "message.html", "key": "message" },
+    { "label": "Company", "href": "company.html", "key": "company" },
+    { "label": "Work", "href": "work.html", "key": "work" },
+    { "label": "Project", "href": "project.html", "key": "project" },
+    { "label": "Staff", "href": "staff.html", "key": "staff" },
+    { "label": "Recruit", "href": "recruit.html", "key": "recruit" },
+    { "label": "News", "href": "news.html", "key": "news" },
+    { "label": "Contact", "href": "contact.html", "key": "contact", "button": true }
+  ],
+
+  "footer_nav": [
+    { "title": "About", "links": [
+      { "label": "代表挨拶", "href": "message.html" },
+      { "label": "会社概要", "href": "company.html" },
+      { "label": "事業内容", "href": "work.html" },
+      { "label": "Canvas Project", "href": "project.html" }
+    ]},
+    { "title": "People", "links": [
+      { "label": "スタッフ紹介", "href": "staff.html" },
+      { "label": "採用情報", "href": "recruit.html" },
+      { "label": "企画・PRスタッフ", "href": "recruit-sales.html" },
+      { "label": "企画・買い付け・事業運営", "href": "recruit-generalist.html" },
+      { "label": "事務スタッフ", "href": "recruit-office.html" }
+    ]},
+    { "title": "News", "links": [
+      { "label": "Information", "href": "news.html#information" },
+      { "label": "Owner’s Voice", "href": "news.html#voice" },
+      { "label": "お問い合わせ・応募", "href": "contact.html" }
+    ]}
+  ],
+
+  "sns": [
+    { "type": "instagram", "label": "代表 Instagram", "url": "https://www.instagram.com/hirotocanvas/" },
+    { "type": "instagram", "label": "スタッフ Instagram", "url": "https://www.instagram.com/canvas625.staff/" },
+    { "type": "x", "label": "X", "url": "https://twitter.com/famie555" },
+    { "type": "threads", "label": "Threads", "url": "https://www.threads.net/@hirotocanvas" }
+  ],
+
+  "cta": {
+    "eyebrow": "Contact",
+    "title": "Let’s paint <em>your</em> future.",
+    "copy": "勝負はこれから。過去なんて気にしません。<br>成功のヒケツは、失敗を恐れないこと。「アイデア」と「行動力」を武器に、世界を目指しませんか。",
+    "button": "お問い合わせ・応募",
+    "href": "contact.html"
+  }
+}

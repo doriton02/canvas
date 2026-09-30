@@ -1,0 +1,83 @@
+title: お問い合わせ・応募
+desc: 株式会社Canvasへのお問い合わせ・求人へのご応募はこちらから。お気軽にご連絡ください。
+section: contact
+hero_en: <em>Contact</em>
+hero_jp: お問い合わせ・応募
+hero_accent: var(--red)
+breadcrumb: Contact
+---
+<section class="section section--tight">
+  <div class="wrap message-layout">
+    <aside class="reveal">
+      <div class="access-card card">
+        <h3>お電話でのお問い合わせ</h3>
+        <a href="tel:0343625057">03-4362-5057</a>
+        <p class="muted" style="font-size:14px">株式会社Canvas 本社<br>〒171-0031 東京都豊島区目白2-16-22<br>ロンアイル池袋301</p>
+      </div>
+      <div class="card mt-s">
+        <h3 style="font-size:18px;margin-bottom:8px">履歴書の送付について</h3>
+        <p class="muted" style="font-size:14px">履歴書を添付される方は、下記アドレスへメールでお送りください。</p>
+        <p><a data-mail href="contact.html">info（at）canvasltd.com</a></p>
+      </div>
+    </aside>
+    <div class="reveal" data-delay="1">
+      <p class="lead">お問い合わせ・ご応募は、下記フォームより承っております。<br>お会いできるのを楽しみにしております。</p>
+      <form id="contact-form" class="form mt-m" action="#" method="post">
+        <div class="form__row">
+          <label for="f-type">お問い合わせ種別 <span class="req">必須</span></label>
+          <select id="f-type" name="type" required>
+            <option value="求人への応募">求人への応募</option>
+            <option value="事業に関するお問い合わせ">事業に関するお問い合わせ</option>
+            <option value="Canvas Projectについて">Canvas Projectについて</option>
+            <option value="その他">その他</option>
+          </select>
+        </div>
+        <div class="form__row form__row--2">
+          <div class="form__row">
+            <label for="f-name">お名前 <span class="req">必須</span></label>
+            <input id="f-name" name="name" type="text" autocomplete="name" required>
+            <p class="error" data-error-for="f-name" aria-live="polite"></p>
+          </div>
+          <div class="form__row">
+            <label for="f-age">年齢 <span class="req">必須</span></label>
+            <input id="f-age" name="age" type="number" min="15" max="99" inputmode="numeric" required>
+            <p class="error" data-error-for="f-age" aria-live="polite"></p>
+          </div>
+        </div>
+        <div class="form__row form__row--2">
+          <div class="form__row">
+            <label for="f-email">メールアドレス <span class="req">必須</span></label>
+            <input id="f-email" name="email" type="email" autocomplete="email" required>
+            <p class="error" data-error-for="f-email" aria-live="polite"></p>
+          </div>
+          <div class="form__row">
+            <label for="f-tel">電話番号 <span class="req">必須</span></label>
+            <input id="f-tel" name="tel" type="tel" autocomplete="tel" required>
+            <p class="error" data-error-for="f-tel" aria-live="polite"></p>
+          </div>
+        </div>
+        <div class="form__row">
+          <label for="f-pref">お住まいの都道府県 <span class="req">必須</span></label>
+          <select id="f-pref" name="pref" required>
+            <option value="">選択してください</option>
+            <option>北海道</option><option>青森県</option><option>岩手県</option><option>宮城県</option><option>秋田県</option><option>山形県</option><option>福島県</option>
+            <option>茨城県</option><option>栃木県</option><option>群馬県</option><option>埼玉県</option><option>千葉県</option><option>東京都</option><option>神奈川県</option>
+            <option>新潟県</option><option>富山県</option><option>石川県</option><option>福井県</option><option>山梨県</option><option>長野県</option><option>岐阜県</option><option>静岡県</option><option>愛知県</option>
+            <option>三重県</option><option>滋賀県</option><option>京都府</option><option>大阪府</option><option>兵庫県</option><option>奈良県</option><option>和歌山県</option>
+            <option>鳥取県</option><option>島根県</option><option>岡山県</option><option>広島県</option><option>山口県</option>
+            <option>徳島県</option><option>香川県</option><option>愛媛県</option><option>高知県</option>
+            <option>福岡県</option><option>佐賀県</option><option>長崎県</option><option>熊本県</option><option>大分県</option><option>宮崎県</option><option>鹿児島県</option><option>沖縄県</option>
+          </select>
+          <p class="error" data-error-for="f-pref" aria-live="polite"></p>
+        </div>
+        <div class="form__row">
+          <label for="f-message">ご希望の面談日・ご質問 <span class="opt">任意</span></label>
+          <textarea id="f-message" name="message"></textarea>
+        </div>
+        <p class="form__note">送信ボタンを押すと、入力内容が入ったメールがお使いのメールアプリで開きます。そのまま送信してください。</p>
+        <div><button class="btn" type="submit">内容を確認して送信 <span class="arrow" aria-hidden="true">→</span></button></div>
+        <div class="form__status" tabindex="-1" role="status">メールアプリが開かない場合は、お手数ですが <a data-mail href="contact.html">info（at）canvasltd.com</a> まで直接ご連絡いただくか、お電話ください。</div>
+      </form>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,73 @@
+{
+  "site_name": "サイト名（例：株式会社Canvas 採用サイト）",
+  "base_url": "https://example.com/",
+  "lang": "ja",
+  "asset_version": "1",
+
+  "brand": {
+    "name": "Brand",
+    "tagline": "ここにキャッチコピー",
+    "copyright": "© {year} Company Inc. All rights reserved."
+  },
+
+  "colors": {
+    "canvas": "#f5f1e8",
+    "paper": "#fffdf8",
+    "ink": "#1b1a17",
+    "blue": "#2e56e6",
+    "red": "#e5432a",
+    "yellow": "#f4b400",
+    "green": "#1e9e6a"
+  },
+
+  "company": {
+    "name": "株式会社サンプル",
+    "zip": "000-0000",
+    "address": "東京都〇〇区〇〇1-2-3 〇〇ビル4F",
+    "tel": "03-0000-0000",
+    "email_user": "info",
+    "email_host": "example.com"
+  },
+
+  "nav": [
+    { "label": "Message", "href": "message.html", "key": "message" },
+    { "label": "Company", "href": "company.html", "key": "company" },
+    { "label": "Work", "href": "work.html", "key": "work" },
+    { "label": "Project", "href": "project.html", "key": "project" },
+    { "label": "Staff", "href": "staff.html", "key": "staff" },
+    { "label": "Recruit", "href": "recruit.html", "key": "recruit" },
+    { "label": "News", "href": "news.html", "key": "news" },
+    { "label": "Contact", "href": "contact.html", "key": "contact", "button": true }
+  ],
+
+  "footer_nav": [
+    { "title": "About", "links": [
+      { "label": "代表挨拶", "href": "message.html" },
+      { "label": "会社概要", "href": "company.html" },
+      { "label": "事業内容", "href": "work.html" },
+      { "label": "プロジェクト", "href": "project.html" }
+    ]},
+    { "title": "People", "links": [
+      { "label": "スタッフ紹介", "href": "staff.html" },
+      { "label": "採用情報", "href": "recruit.html" },
+      { "label": "募集要項", "href": "recruit-job.html" }
+    ]},
+    { "title": "News", "links": [
+      { "label": "お知らせ", "href": "news.html" },
+      { "label": "お問い合わせ", "href": "contact.html" }
+    ]}
+  ],
+
+  "sns": [
+    { "type": "instagram", "label": "Instagram", "url": "https://www.instagram.com/" },
+    { "type": "x", "label": "X", "url": "https://x.com/" }
+  ],
+
+  "cta": {
+    "eyebrow": "Contact",
+    "title": "Let’s talk <em>with</em> us.",
+    "copy": "ここに問い合わせを促す一文を入れます。お気軽にご連絡ください。",
+    "button": "お問い合わせ",
+    "href": "contact.html"
+  }
+}

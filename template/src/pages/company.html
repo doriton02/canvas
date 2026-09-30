@@ -1,0 +1,41 @@
+title: 会社概要
+desc: {{company.name}}の会社概要です。
+section: company
+hero_en: <em>Company</em>
+hero_jp: 会社概要
+hero_accent: var(--blue)
+breadcrumb: Company
+---
+<section class="section section--tight">
+  <div class="wrap wrap--narrow">
+    <dl class="info-table reveal">
+      <div class="info-table__row"><dt>社名</dt><dd>{{company.name}}</dd></div>
+      <div class="info-table__row"><dt>設立</dt><dd>20XX年X月</dd></div>
+      <div class="info-table__row"><dt>資本金</dt><dd>X,XXX,XXX円</dd></div>
+      <div class="info-table__row"><dt>代表者</dt><dd>代表取締役　氏名</dd></div>
+      <div class="info-table__row"><dt>事業内容</dt><dd><ul><li>事業 1</li><li>事業 2</li><li>事業 3</li></ul></dd></div>
+      <div class="info-table__row"><dt>所在地</dt><dd>〒{{company.zip}}<br>{{company.address}}</dd></div>
+      <div class="info-table__row"><dt>電話番号</dt><dd><a href="tel:{{tel_link}}">{{company.tel}}</a></dd></div>
+      <div class="info-table__row"><dt>メール</dt><dd><a data-mail href="contact.html">お問い合わせフォームをご利用ください</a></dd></div>
+    </dl>
+  </div>
+</section>
+
+<section class="section section--paper">
+  <div class="wrap">
+    <div class="sec-head reveal"><p class="eyebrow" style="--accent: var(--blue)">Access</p><h2 class="sec-title">アクセス</h2></div>
+    <div class="split">
+      <div class="map reveal">
+        <!-- q= の後ろを住所に変えると地図が変わります -->
+        <iframe title="{{company.name}}の地図" loading="lazy" src="https://www.google.com/maps?q={{company.address}}&amp;z=16&amp;output=embed"></iframe>
+      </div>
+      <div class="access-card reveal" data-delay="1">
+        <h3>{{company.name}}</h3>
+        <p>〒{{company.zip}}<br>{{company.address}}</p>
+        <a href="tel:{{tel_link}}">{{company.tel}}</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{CTA}}
