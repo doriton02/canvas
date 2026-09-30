@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>お問い合わせ・応募 | 株式会社Canvas（キャンバス）</title>
+<meta name="description" content="株式会社Canvasへのお問い合わせ・求人へのご応募はこちらから。お気軽にご連絡ください。">
+<link rel="canonical" href="https://canvasltd.com/contact.html">
+<meta property="og:site_name" content="株式会社Canvas（キャンバス）">
+<meta property="og:title" content="お問い合わせ・応募 | 株式会社Canvas（キャンバス）">
+<meta property="og:description" content="株式会社Canvasへのお問い合わせ・求人へのご応募はこちらから。お気軽にご連絡ください。">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://canvasltd.com/contact.html">
+<meta property="og:image" content="https://canvasltd.com/assets/img/ogp.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#f5f1e8">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="assets/js/main.js" defer></script>
+</head>
+<body data-section="contact">
+<a class="skip-link" href="#main">本文へスキップ</a>
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a class="logo" href="index.html" aria-label="株式会社Canvas トップページ">
+      <span class="logo__mark">Canvas</span><span class="logo__dots" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span class="logo__sub">Make colours by yourself!</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="gnav" aria-label="メニューを開く"><span></span><span></span><span></span></button>
+    <nav class="gnav" id="gnav" aria-label="グローバルナビゲーション">
+      <ul>
+        <li><a href="message.html" data-nav="message">Message</a></li>
+        <li><a href="company.html" data-nav="company">Company</a></li>
+        <li><a href="work.html" data-nav="work">Work</a></li>
+        <li><a href="project.html" data-nav="project">Project</a></li>
+        <li><a href="staff.html" data-nav="staff">Staff</a></li>
+        <li><a href="recruit.html" data-nav="recruit">Recruit</a></li>
+        <li><a href="news.html" data-nav="news">News</a></li>
+        <li><a class="btn" href="contact.html" data-nav="contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main">
+<section class="page-hero" style="--accent: var(--red)">
+  <div class="wrap">
+    <h1 class="page-hero__title reveal"><em>Contact</em></h1>
+    <p class="page-hero__sub reveal" data-delay="1">お問い合わせ・応募</p>
+    <nav class="breadcrumb" aria-label="パンくずリスト"><ol><li><a href="index.html">Home</a></li><li aria-current="page">Contact</li></ol></nav>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="wrap message-layout">
+    <aside class="reveal">
+      <div class="access-card card">
+        <h3>お電話でのお問い合わせ</h3>
+        <a href="tel:0343625057">03-4362-5057</a>
+        <p class="muted" style="font-size:14px">株式会社Canvas 本社<br>〒171-0031 東京都豊島区目白2-16-22<br>ロンアイル池袋301</p>
+      </div>
+      <div class="card mt-s">
+        <h3 style="font-size:18px;margin-bottom:8px">履歴書の送付について</h3>
+        <p class="muted" style="font-size:14px">履歴書を添付される方は、下記アドレスへメールでお送りください。</p>
+        <p><a data-mail href="contact.html">info（at）canvasltd.com</a></p>
+      </div>
+    </aside>
+    <div class="reveal" data-delay="1">
+      <p class="lead">お問い合わせ・ご応募は、下記フォームより承っております。<br>お会いできるのを楽しみにしております。</p>
+      <form id="contact-form" class="form mt-m" action="#" method="post">
+        <div class="form__row">
+          <label for="f-type">お問い合わせ種別 <span class="req">必須</span></label>
+          <select id="f-type" name="type" required>
+            <option value="求人への応募">求人への応募</option>
+            <option value="事業に関するお問い合わせ">事業に関するお問い合わせ</option>
+            <option value="Canvas Projectについて">Canvas Projectについて</option>
+            <option value="その他">その他</option>
+          </select>
+        </div>
+        <div class="form__row form__row--2">
+          <div class="form__row">
+            <label for="f-name">お名前 <span class="req">必須</span></label>
+            <input id="f-name" name="name" type="text" autocomplete="name" required>
+            <p class="error" data-error-for="f-name" aria-live="polite"></p>
+          </div>
+          <div class="form__row">
+            <label for="f-age">年齢 <span class="req">必須</span></label>
+            <input id="f-age" name="age" type="number" min="15" max="99" inputmode="numeric" required>
+            <p class="error" data-error-for="f-age" aria-live="polite"></p>
+          </div>
+        </div>
+        <div class="form__row form__row--2">
+          <div class="form__row">
+            <label for="f-email">メールアドレス <span class="req">必須</span></label>
+            <input id="f-email" name="email" type="email" autocomplete="email" required>
+            <p class="error" data-error-for="f-email" aria-live="polite"></p>
+          </div>
+          <div class="form__row">
+            <label for="f-tel">電話番号 <span class="req">必須</span></label>
+            <input id="f-tel" name="tel" type="tel" autocomplete="tel" required>
+            <p class="error" data-error-for="f-tel" aria-live="polite"></p>
+          </div>
+        </div>
+        <div class="form__row">
+          <label for="f-pref">お住まいの都道府県 <span class="req">必須</span></label>
+          <select id="f-pref" name="pref" required>
+            <option value="">選択してください</option>
+            <option>北海道</option><option>青森県</option><option>岩手県</option><option>宮城県</option><option>秋田県</option><option>山形県</option><option>福島県</option>
+            <option>茨城県</option><option>栃木県</option><option>群馬県</option><option>埼玉県</option><option>千葉県</option><option>東京都</option><option>神奈川県</option>
+            <option>新潟県</option><option>富山県</option><option>石川県</option><option>福井県</option><option>山梨県</option><option>長野県</option><option>岐阜県</option><option>静岡県</option><option>愛知県</option>
+            <option>三重県</option><option>滋賀県</option><option>京都府</option><option>大阪府</option><option>兵庫県</option><option>奈良県</option><option>和歌山県</option>
+            <option>鳥取県</option><option>島根県</option><option>岡山県</option><option>広島県</option><option>山口県</option>
+            <option>徳島県</option><option>香川県</option><option>愛媛県</option><option>高知県</option>
+            <option>福岡県</option><option>佐賀県</option><option>長崎県</option><option>熊本県</option><option>大分県</option><option>宮崎県</option><option>鹿児島県</option><option>沖縄県</option>
+          </select>
+          <p class="error" data-error-for="f-pref" aria-live="polite"></p>
+        </div>
+        <div class="form__row">
+          <label for="f-message">ご希望の面談日・ご質問 <span class="opt">任意</span></label>
+          <textarea id="f-message" name="message"></textarea>
+        </div>
+        <p class="form__note">送信ボタンを押すと、入力内容が入ったメールがお使いのメールアプリで開きます。そのまま送信してください。</p>
+        <div><button class="btn" type="submit">内容を確認して送信 <span class="arrow" aria-hidden="true">→</span></button></div>
+        <div class="form__status" tabindex="-1" role="status">メールアプリが開かない場合は、お手数ですが <a data-mail href="contact.html">info（at）canvasltd.com</a> まで直接ご連絡いただくか、お電話ください。</div>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="site-footer__top">
+      <div>
+        <a class="logo" href="index.html" aria-label="株式会社Canvas トップページ"><span class="logo__mark">Canvas</span><span class="logo__dots" aria-hidden="true"><i></i><i></i><i></i></span></a>
+        <address class="site-footer__addr">株式会社Canvas<br>〒171-0031 東京都豊島区目白2-16-22 ロンアイル池袋301<br>TEL <a href="tel:0343625057">03-4362-5057</a></address>
+        <div class="sns">
+          <a href="https://www.instagram.com/hirotocanvas/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>代表 Instagram</a>
+          <a href="https://www.instagram.com/canvas625.staff/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>スタッフ Instagram</a>
+          <a href="https://twitter.com/famie555" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.8 3h3.1l-6.8 7.7L22 21h-6.2l-4.9-6.4L5.3 21H2.2l7.3-8.3L2 3h6.4l4.4 5.8L17.8 3zm-1.1 16.2h1.7L7.4 4.7H5.6l11.1 14.5z"/></svg>X</a>
+          <a href="https://www.threads.net/@hirotocanvas" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M16.5 11.2c-.3-3-2.1-4.6-4.7-4.6-2 0-3.5.9-4.2 2.4"/><path d="M9 14.6c0 1.4 1.2 2.4 2.9 2.3 2.4-.1 3.5-2 3.3-5.3-1.6-.4-6.2-.8-6.2 3z"/><path d="M19 8.5C17.7 4.9 15 3 12 3 7 3 4 6.5 4 12s3 9 8 9c3.8 0 6.8-2 7.4-5.3.4-2.3-.8-4.3-3-5.2"/></svg>Threads</a>
+        </div>
+      </div>
+      <nav class="footer-nav" aria-label="フッターナビゲーション">
+        <div>
+          <h2>About</h2>
+          <ul>
+            <li><a href="message.html">代表挨拶</a></li>
+            <li><a href="company.html">会社概要</a></li>
+            <li><a href="work.html">事業内容</a></li>
+            <li><a href="project.html">Canvas Project</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>People</h2>
+          <ul>
+            <li><a href="staff.html">スタッフ紹介</a></li>
+            <li><a href="recruit.html">採用情報</a></li>
+            <li><a href="recruit-sales.html">企画・PRスタッフ</a></li>
+            <li><a href="recruit-generalist.html">企画・買い付け・事業運営</a></li>
+            <li><a href="recruit-office.html">事務スタッフ</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>News</h2>
+          <ul>
+            <li><a href="news.html#information">Information</a></li>
+            <li><a href="news.html#voice">Owner’s Voice</a></li>
+            <li><a href="contact.html">お問い合わせ・応募</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="site-footer__bottom">
+      <p>© 2014–<span data-year>2026</span> Canvas Inc. All rights reserved.</p>
+      <p class="en">Make colours by yourself!</p>
+    </div>
+  </div>
+</footer>
+<button class="to-top" type="button" aria-label="ページの先頭へ戻る">↑</button>
+</body>
+</html>
